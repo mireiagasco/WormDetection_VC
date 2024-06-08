@@ -100,3 +100,6 @@ Image 24:
 
 
 In these images you can see that most errors are caused by the error in the detection of contours, which causes two worms to be detected where there is only one in the shaded areas, or that only one is detected worm when several intersect.  Also, because we set the live-dead classification threshold very low, some worms that are dead are marked as alive.  However, as we will see in the test game, it is with these values ​​that we achieve a better classification of the images.
+
+### Results
+The results obtained in the test dataset showed that, even if the detection of each individual worm is not accurate due to the difficulties stated before, this script has the ability to classify the images with a notable accuracy. This classification is based on which type of worms, alive or dead, are predominant on the image.  In the test set, 22 out of 24 images were classified correctly, which corresponds to a 91% of accuracy.
