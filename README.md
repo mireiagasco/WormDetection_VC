@@ -5,6 +5,7 @@ This work has two main objectives: first, it seeks to develop a program that, gi
 This project has a really simple environment, as it uses only tools from the MatLab suite. The requirements are the following:
 - MATLAB vR2023a
 - MATLAB Image Processing Toolbox
+  
 Having this installed, you can run the code from MATLAB's command line calling the main function ```process_images``` indicating as a parameter the folder where the images and the expected results are.  Consider that the code uses the expected results to compute the precision of the output generated, which means that those expected results are needed for a proper execution.  The ```csv``` file included in the ```images_dataset``` folder can be used as an example of how said results have to be formated.
 
 As an execution example, using the ```image_dataset``` provided, the script can be run by the following command:
